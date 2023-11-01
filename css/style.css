@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1.1em;
+    font-family: 'Reggae One', cursive;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/background.gif); /* Укажите путь к вашей фоновой картинке */
+    background-size: cover; /* Масштабировать изображение на всю ширину и высоту экрана */
+    background-repeat: no-repeat; /* Запретить повторение фоновой картинки */
+    background-attachment: fixed; /* Зафиксировать фоновое изображение */
+}
+header {
+    background-color: rgb(189, 70, 219);
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+}
+header h1{
+    color: aliceblue;
+}
+main {
+    background-image: url(background.gif);
+    background-size: cover; /* Масштабировать изображение на всю ширину и высоту экрана */
+    background-repeat: no-repeat;
+    background-color: rgb(137, 43, 226);
+}
+
+footer {
+    background-color: rgb(19, 0, 34);
+    padding: 10px 50px;
+    font-family: 'Reggae One', cursive;
+}
+
+footer p {
+    color: rgb(185, 0, 241, 0.747);
+}
+
+#about {
+    background-color: rgba(185, 0, 241, 0.947);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+}
+
+#articles {
+    background-color: rgba(185, 0, 241, 0.918);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    font-family: 'Reggae One', cursive;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Reggae One', cursive;
+}
+
+
+h1 {
+     text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Reggae One', cursive;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+}
+
+ul {
+    list-style: none;
+}
+
+#content {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Reggae One', cursive;
+    padding: 20px;
+    background-color: rgba(185, 0, 241, 0.918);
+    max-width: 800px;
+    margin: 0 auto;
+}
